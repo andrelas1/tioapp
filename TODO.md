@@ -1,0 +1,1 @@
+-- Configure frontend app to run the linter with its own configuration (eslint.json)
