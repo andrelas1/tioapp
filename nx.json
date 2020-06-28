@@ -25,6 +25,13 @@
     "frontend-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend"]
+    },
+    "frontend-pwa": {
+      "tags": []
+    },
+    "frontend-pwa-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontend-pwa"]
     }
   }
 }
