@@ -1,13 +1,10 @@
 import React from 'react';
-import 'antd/dist/antd.css';
+import { Route, Link } from 'react-router-dom';
+
 import { Button } from 'antd';
 
 import styled from 'styled-components';
-
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
-
-import { Route, Link } from 'react-router-dom';
+import 'antd/dist/antd.css';
 
 const StyledApp = styled.div`
 
@@ -15,7 +12,7 @@ const StyledApp = styled.div`
 
 export const App = () => {
   return (
-    <div>
+    <StyledApp>
       <header>
         <h1>TIOAPP</h1>
       </header>
@@ -56,7 +53,7 @@ export const App = () => {
           </div>
         )}
       />
-    </div>
+    </StyledApp>
   );
 };
 
