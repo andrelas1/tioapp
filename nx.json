@@ -25,6 +25,9 @@
     "frontend-pwa-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-pwa"]
+    },
+    "ui-components": {
+      "tags": []
     }
   }
 }
